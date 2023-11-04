@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(29, 27, 27);
+}
+
+
+.card{
+    width: 90%;
+    max-width: 470px;
+    background:linear-gradient(to right, #e915d7, #0b2dee);
+    color: white;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+
+#inputed{
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    width: 200px;
+}
+.weather{
+    margin-top: 20px;
+}
+
+#btn{
+    padding: 10px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+#btn:hover{
+    background-color: #e915d7;
+    color: white;
+}
+
+
+.humid{
+    display: flex;
+    margin-top: 30px;
+    position: relative;
+}
+
+.wind{
+    position: absolute;
+    right: 20px;
+}
+
+.live,.God{
+    font-size: 30px;
+}
+.shade{
+    width: 100px;
+}
+
+.weather{
+    display: none;
+}
+
+.disp{
+    margin-top: 10px;
+    margin-right: 40px;
+    color: aquamarine;
+    font-weight: bold;
+    display: none;
+}
+
+.heto{
+    margin-right: 50px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
