@@ -105,8 +105,17 @@
         max-width: 100%;
         width: 60%;
     }
+    .humid{
+        display: flex;
+        
+    }
+}
+
+@media(max-width:500px){
     .card{
         margin: 0;
+        width: 100%;
+        border-radius: 0;
+        max-width: 100%;
     }
-
 }
