@@ -67,6 +67,7 @@
     width: 100%;
     padding: 20px;
     margin: 10px;
+    position: relative;
 }
 .frid{
     width: 100%;
@@ -104,4 +105,8 @@
         max-width: 100%;
         width: 60%;
     }
+    .card{
+        margin: 0;
+    }
+
 }
