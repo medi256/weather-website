@@ -30,7 +30,7 @@ async function changeWeather(city){
         head.innerHTML = Math.round(fetched.main.temp ) + "°C";
         hl2.innerHTML = fetched.name;
         hl3.innerHTML = fetched.main.humidity + "%";
-        hl4.innerHTML = fetched.wind.speed + " km/h";
+        hl4.innerHTML = fetched.wind.speed + " km/hr";
 
         let image = document.querySelector(".shade");
 
