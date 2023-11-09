@@ -52,6 +52,14 @@ body{
     margin-top: 30px;
     position: relative;
 }
+@media(max-width){
+    .humidi{
+        display:block;
+    }
+    .wind{
+        display:block;
+    }
+}
 
 .wind{
     position: absolute;
