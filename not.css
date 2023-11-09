@@ -1,92 +1,107 @@
+.card{
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(to left, #0026ff, rgb(206, 27, 167));
+    /* display: block; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    text-align: center;
+    height:auto;
+    padding: 30px;
+    color: white;
+    border-radius: 30px;
+    margin-top: 20px;
+}
 *{
     margin: 0;
     padding: 0;
-    font-family: Poppins;
     box-sizing: border-box;
 }
-body{
-    background-color: rgb(29, 27, 27);
-}
 
 
-.card{
-    width: 90%;
-    max-width: 470px;
-    background:linear-gradient(to right, #e915d7, #0b2dee);
+.heto{
     color: white;
-    margin: 100px auto 0;
-    border-radius: 20px;
-    padding: 40px 35px;
-    text-align: center;
+    font-weight: bold;
+    font-family: Poppins;
+    text-decoration: underline;
 }
 
 
 #inputed{
-    padding: 10px;
-    border-radius: 10px;
-    outline: none;
+    padding: 15px;
+    border-radius: 30px;
     border: none;
-    width: 200px;
+    outline: none;
+    margin-top: 10px;
+    max-width: 100%;
 }
-.weather{
-    margin-top: 20px;
-}
+
 
 #btn{
-    padding: 10px;
-    border-radius: 50%;
-    outline: none;
+    padding: 15px;
+    border-radius: 30px;
     border: none;
-    cursor: pointer;
-    margin-left: 5px;
+    outline: none;
+    margin-top: 10px;
 }
-
 #btn:hover{
-    background-color: #e915d7;
+    background-color:fuchsia;
     color: white;
+    cursor: pointer;
+}
+.disp{
+    color: aquamarine;
+    font-weight: bold;
+    font-family: Poppins;
+    margin: 5px;
+    display: none;
 }
 
+.weather{
+    padding: 10px;
+    display: none;
+}
 
 .humid{
-    display: flex;
-    margin-top: 30px;
-    position: relative;
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
 }
-@media(max-width:447px){
-    .humidi{
-        display:block;
-    }
-    .wind{
-        display:block;
-    }
+.frid{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
 }
 
 .wind{
-    position: absolute;
-    right: 20px;
-}
-
-.live,.God{
-    font-size: 30px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
 }
 .shade{
-    width: 100px;
+    max-width: 100%;
+    width: 150px;
 }
 
-.weather{
-    display: none;
+.shade:hover{
+    padding: 5px;
+    border: solid 5px ;
+    box-shadow: 5px 5px 10px black;
+}
+.God, .live{
+    margin: 5px;
+    font-size: 50px;
 }
 
-.disp{
-    margin-top: 10px;
-    margin-right: 40px;
-    color: aquamarine;
-    font-weight: bold;
-    display: none;
-}
-
-.heto{
-    margin-right: 50px;
-    margin-bottom: 20px;
-    text-decoration: underline;
+@media(min-width:730px){
+    #inputed{
+        padding: 15px;
+        border-radius: 30px;
+        border: none;
+        outline: none;
+        margin-top: 10px;
+        max-width: 100%;
+        width: 60%;
+    }
 }
